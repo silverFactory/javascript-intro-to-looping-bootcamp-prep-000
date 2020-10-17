@@ -28,7 +28,7 @@ function doWhileLoop(integer){
   }while(incrementVariable() < integer)
 }*/
 function forLoop(arr){
-  let wierdArray = arr;
+  let wierdArray = [arr];
   for (let i = 0; i< 25; i++){
     if(i === 1){
       wierdArray.push(`"I am 1 strange loop."`)
