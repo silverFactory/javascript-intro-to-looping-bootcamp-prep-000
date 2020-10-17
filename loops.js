@@ -29,11 +29,12 @@ function doWhileLoop(integer){
 }*/
 function forLoop(arr){
   let wierdArray = [arr];
-  for (let i = 0; i< 25; i++){
+  for (let i = 0; i < 25; i++){
     if(i === 1){
       wierdArray.push(`"I am 1 strange loop."`)
     } else {
       wierdArray.push(`"I am ${i} strange loops."`)
     }
   }
+  return wierdArray;
 }
