@@ -1,4 +1,4 @@
-
+/*
 function forLoop(array) {
   for (let i = 0; i < 25; i++){
    if(i === 1){
@@ -8,7 +8,7 @@ function forLoop(array) {
   }
   }
   return array
-}/*
+}*//*
 function whileLoop(number){
   while(number >= 0){
     console.log(number)
@@ -26,4 +26,5 @@ function doWhileLoop(integer){
   do{
     console.log('I run once regardless.')
   }while(incrementVariable() < integer)
-}
+}*/
+function forLoop(){}
